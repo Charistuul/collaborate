@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    border: 0;
+    min-width: fit-content;
+}
+
+.grid {
+    display: grid;
+    background-color: rgb(80, 138, 94);
+    max-width: 100%;
+    min-width: fit-content;
+    min-height: 100px;
+    max-height: 150px;
+    grid-template-columns: 1fr 9fr;
+    place-items: center;
+    border-bottom: 1px solid #767777;
+}
+.boxa {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(80, 138, 94);
+
+}
+.title {
+    padding-right: 15%;
+    font-size: x-large;
+    background-color: rgb(80, 138, 94);
+    color: rgb(223, 223, 236);
+}
+
+.portfolio {
+    max-width: 100%;
+    flex-shrink: 1;
+    padding-bottom: 3em;
+
+}
+#portfoliotitle {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    padding-right: 4%;
+
+}
+.portcontent {
+    display: inline-flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    flex-shrink: 1;
+    gap: 10px;
+
+}
+.girlwpearl{
+    max-height: 400px;
+    max-width: 100%;
+    place-items: center;
+}
+.bohocover {
+    max-height: 400px;
+    max-width: 100%;
+
+    place-items: center;
+}
+.allure {
+    max-height: 400px;
+    max-width: 100%;
+    place-items: center;
+}
+
+.description {
+    text-align: center;
+    height: 400px;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 100%;
+    
+
+}
+#introhead {
+    text-align: center;
+    font-weight: 800;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.container {
+    display: grid;
+    max-width: 100%;
+    align-content: center;
+}
+h1 {
+    background-color: rgb(80, 138, 94);
+}
+h2 {
+    font-size: x-large;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h3 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: small;
+}
+ul {
+    list-style-type: none;
+    padding-bottom: 3em;
+}
+.imagetitle {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 1;
+}
+#creative {
+    margin-right: 20%;
+    max-height: 400px;
+}
+#bohostyle {
+    margin-right: 20%;
+    max-height: 400px;
+}
+#allure {
+    margin-right: 5%;
+
+}
+.maxheight {
+    max-height: 400px;
+}
+
+
+.interested {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   padding-bottom: 3em;
+}
+.responds {
+    display: inline;
+    color: rgb(236, 236, 247);
+    background-color: rgb(80, 138, 94);
+    border: 2px solid rgb(80, 138, 94);
+}
+
+.clickintro {
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-style: normal;
+}
